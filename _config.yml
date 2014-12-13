@@ -5,6 +5,7 @@ email: josh.bryan@gmail.com
 twitter_username: jbryanchi
 github_username:  jbryan
 permalink: /blog/:year/:month/:day/:title/
+paginate: 5
 
 highlighter: pygments
 markdown: kramdown
