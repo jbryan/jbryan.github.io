@@ -1,0 +1,20 @@
+---
+author: jbryan
+comments: true
+date: 2005-12-04 18:52:42+00:00
+excerpt: <a href="http://pattigay.com">Patti Gay</a>
+layout: post
+slug: patti-gay
+title: Patti Gay - Artist
+wordpress_id: 9
+categories:
+- Projects
+- Software
+---
+
+Recently I created a website for [Patti Gay](http://pattigay.com), a California base artist.  She wanted a website that allowed her to manage and display galleries of pictures in a format she designed.
+
+
+
+
+This site was designed using PHP and MySQL. It provides a simple interface that allows Patti to upload photos of her art to the site               and arrange them in galleries without needing any technical understanding of HTML or website design.  The underlying scripts store all of the                images in a SQL database and automatically resize and arrange the images within a template for easy display.  The site includes a complete admin area that allows for javascript based arrangement of images on the page.

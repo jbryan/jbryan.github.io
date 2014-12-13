@@ -1,0 +1,37 @@
+---
+author: jbryan
+comments: true
+date: 2005-12-04 08:18:52+00:00
+layout: post
+slug: here-i-go
+title: Here I go...
+wordpress_id: 4
+categories:
+- About Me
+---
+
+
+I finally decided to actually do something with joshbryan.com after almost a year of inactivity.  I spent several weeks attempting to be true to my self and write content management sytem specifically tailored for what I envisioned my personal web page being.  As I thought about it more and more, I began to realize that what I was developing was really a blog system, and there was no need to reinvent the wheel.  I gave in.  After several years of resisting the idea of blogs as being little more than online diaries and bulletin boards of useless ramblings, I decided to give it a shot.  Since I am doing this, i'll try to keep my postings away from the tenor of the blogs that had put me off to begin with, however, if I do stray, I hope that friends, family, and public will keep me true to my purpose.
+
+
+
+
+
+
+That being said, I will use this site to promote general know of topics i'm interested in, and hopefully keep discussion of those topics as open, fair, and objective as possible.  I am not starting this to make a statement, prove a point, or vent unnecessarily.  The majority of my postings will likely be related to music or software, as these are both my careers and hobbies.  However, if I see news or commentary that passes the previous criteria, and that is of interest to me, I may pass it along as well.
+
+
+
+
+
+
+As I didn't want to reinvent the wheel, I chose to reinvent the wheel, I chose [WordPress](http://wordpress.org)as my blogging engine.  I will try it out and see how I like it, and compare to others.  For now, I have chosen the simple yet good looking theme 
+[Blue Radiant](http://www.hpnadig.net/blog/index.php/archives/2005/04/10/blue-radiant-theme-updated/).  [Update 2006-02-08: I have now redone most of the theme to fit my own style.  Though, in source, some of the original code exists, most of the look and feel has changed.] I hope to in the near future design my own look and feel for this site and make it a little more personalized.
+
+
+
+
+Until then, I'm jumping in...hope you enjoy. :)
+
+
+

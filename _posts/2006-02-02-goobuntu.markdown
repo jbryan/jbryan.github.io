@@ -1,0 +1,16 @@
+---
+author: jbryan
+comments: true
+date: 2006-02-02 07:23:21+00:00
+excerpt: 'Google Downplays Goobuntu Linux Rumor '
+layout: post
+slug: goobuntu
+title: Goobuntu?
+wordpress_id: 25
+categories:
+- Reviews
+---
+
+
+NewsFactor.com's article, [Google Downplays Goobuntu Linux Rumor - Tech Trends - NewsFactor Network](http://www.newsfactor.com/story.xhtml?story_id=001000000VX1), is more rumbling about the possibility of Google selling it's own operating system. Though I would certainly be among the first to try it out if they did, Google has made no public disclosure that they have plans to do so. Furthermore, with MacOS X being positioned as a great UNIX operating system with all the touchy feely GUI details the average consumer looks for, and able to run on at least two architectures, I imagine for Google to be competitive in this business would be very difficult. Don't get me wrong, I use Linux and love it, but I also see why most people don't. If you are just looking for a "Not MS" OS, why not Mac OS?  
+

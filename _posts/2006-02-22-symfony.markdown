@@ -1,0 +1,13 @@
+---
+author: jbryan
+comments: true
+date: 2006-02-22 21:47:33+00:00
+layout: post
+slug: symfony
+title: Symfony
+wordpress_id: 39
+categories:
+- Reviews
+---
+
+[PHP Zone](http://www.mustap.com/phpzone_post_205_symfony-06-released) just release an article about [Symfony](http://www.symfony-project.com), a new MVC framework. I have been an avid fan of Mojavi, but in light of it's somewhat disorganized development and poor documentation, I'v been looking for a new framework to use. Symfony looks like it takes many of the best features of Mojavi and ties them into some of the best features of Ruby on Rails. This looks like a really cool new framework, the only downside is that it has no PHP 4 support, and many of the projects I work on are written in PHP 4.

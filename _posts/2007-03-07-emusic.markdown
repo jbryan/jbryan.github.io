@@ -1,0 +1,32 @@
+---
+author: jbryan
+comments: true
+date: 2007-03-07 19:18:53+00:00
+layout: post
+slug: emusic
+title: Emusic
+wordpress_id: 53
+categories:
+- Music
+---
+
+Since I am thoroughly against the legal and technological tactics use by major record labels, RIAA, MPAA, and other big media organizations, I have been looking for a legal DRM free source of independent music.  Furthermore, since my primary operating system is Linux,  I needed a source that provided the music in a widely supported format and provided a way to download to the Linux platform.  
+
+
+
+
+I considered using [Magnatune.com](http://magnatune.com), since they met all of my requirements and gave a 50% cut to the artists.  Also, their store has an interface built into [Amarok](http://amarok.kde.org/).   However, after browsing their music list, I was disappointed at their small selection.  
+
+
+
+
+About a month ago, I checked out [Emusic.com](http://www.emusic.com) and found that they had a beta version of their downloader for linux, but that it was not currently supported, and that their windows version did not seem to be supported by [wine](http://winehq.com).  After a little searching, I found [Emusic/J](http://www.kallisti.net.nz/EMusicJ/HomePage), a java download app for emusic.  Their collection, though lacking in the most popular top 40's from major record labels, has a huge selection.  It includes many great musicians including Tony Martinez, Dirty Dozen Brass Band, Charlie Parker, Miles Davis, John Adams, John Cage, and many, many more from many genres and countries.  Over 2,000,000 million tracks in all from 13,000 labels.  And its cheap.  At $14.99 per month, you get 50 downloads per month.  That works out $0.30 per song.  There premium package works out to $0.27 per song.  
+
+
+
+
+All in all, I've been very pleased with their service.  If you are looking for a good source of independent music, you should check them out.  I would appreciate hear how others have faired with them, or if anyone prefers another service that might satisfy my requirements.
+
+
+
+

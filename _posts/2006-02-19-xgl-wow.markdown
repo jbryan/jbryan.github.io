@@ -1,0 +1,13 @@
+---
+author: jbryan
+comments: true
+date: 2006-02-19 00:43:01+00:00
+layout: post
+slug: xgl-wow
+title: XGL - Wow!
+wordpress_id: 38
+categories:
+- Reviews
+---
+
+Recently, Novell opened the source to their [XGL](http://www.linuxedge.org/?q=node/58) desktop, a OpenGL layer and desktop manager for X windowing system.Â  From the demo video released, this looks slicker than the effects found in Mac OSX or Windows Vista.Â  I imagine this will grow and take off real fast giving Microsoft a real run for their money.Â  Linux is already known for its security and stability, the only thing the MS and Mac have consitantly beat Linux in is graphics and media.Â  This may give Linux the edge in graphics for the first time, and give media companies an insentive to play nice with Linux.

@@ -1,0 +1,25 @@
+---
+author: jbryan
+comments: true
+date: 2006-02-02 07:02:58+00:00
+excerpt: So, upon hearing news about the Open Ajax coalition of BEA, Borland, the
+  Dojo Foundation, Eclipse Foundation, Google, Laszlo Systems, Mozilla, Novell, Openwave,
+  Oracle, Red Hat, Yahoo, Zend, and Zimbra, naturally I got excited.
+layout: post
+slug: open-ajax
+title: Open Ajax
+wordpress_id: 26
+categories:
+- Coding
+- Projects
+- Software
+---
+
+
+
+
+
+In several current projects I have been working on AJAXifying old systems and building new systems with AJAX components. Though I have tried to take advantage of open libraries such as [prototype.js](http://prototype.conio.net/) and [Open Rico](http://openrico.org/), I have yet to find a good framework that incorporates both the server-side and client-side programming needs. So, upon hearing [news](http://www.cbronline.com/article_news.asp?guid=97D640A5-48E2-4078-A131-D7256CA376DC) about the Open Ajax coalition of BEA, Borland, the Dojo Foundation, Eclipse Foundation, Google, Laszlo Systems, Mozilla, Novell, Openwave, Oracle, Red Hat, Yahoo, Zend, and Zimbra, naturally I got excited.
+
+This could finally lend the kind of stability and formality to the technology that would aleviate many of my current headaches as a developer and many of the [criticisms](http://www.aventureforth.com/2005/09/21/whats-wrong-with-ajax/) from users. The awesome thing about AJAX is that it is built on non-proprietary technologies unlike any of the other leading rich client technologies; thus, if it could be developed in a manner that gives it the same formality and maturity of other web standards, such as HTML and XML, it would go a long way toward simplifying development, cutting costs, and improving user's experiences. I believe the companies backing it have the experience and sway to make it happen.  
+
