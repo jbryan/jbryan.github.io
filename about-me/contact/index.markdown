@@ -8,12 +8,5 @@ title: Contact
 wordpress_id: 54
 ---
 
-You may contact me at:
+You may contact me via email at [josh.bryan@gmail.com](mailto:josh.bryan@gmail.com).
 
-
-<blockquote>josh.bryan@gmail.com
-
-or
-
-1341 S. Lombard Ave
-Cicero, IL 60804</blockquote>
