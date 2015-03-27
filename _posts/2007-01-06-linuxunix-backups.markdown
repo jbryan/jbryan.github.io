@@ -12,10 +12,25 @@ categories:
 - Software
 ---
 
-It seems that every one I talk to about backups on \*nix has their own method of doing things.  Some people use a ["Towers of Hanoi" algorithm](http://www.novastor.com/tech_supt/strategy.html) to do level based backups using
-**dump** to tape drives.  Some people use a clever scheme using rsync to create a [snapshot backup](http://edseek.com/~jasonb/articles/dirvish_backup/snapshot.html).  Still others use proprietary services to dump their data to multiple physical locations around the world.  The bottom line when it comes to choosing a system is a combination of the bottom line (how much it costs) and how valuable your data is.
+It seems that every one I talk to about backups on \*nix has their own method
+of doing things.  Some people use a ["Towers of Hanoi"
+algorithm](http://en.wikipedia.org/wiki/Backup_rotation_scheme#Tower_of_Hanoi)
+to do level based backups using **dump** to tape drives.  Some people use a
+clever scheme using rsync to create a [snapshot
+backup](http://edseek.com/~jasonb/articles/dirvish_backup/snapshot.html).
+Still others use proprietary services to dump their data to multiple physical
+locations around the world.  The bottom line when it comes to choosing a system
+is a combination of the bottom line (how much it costs) and how valuable your
+data is.
 
-My personal backup choice is a practical application of GNU tar's listed incremental backup plan.  It is fairly simple and can be easily configured for any number of directories or filesystems.  This is a conglomeration of about ten different scripts I found or friends have pointed be to.  This is by no means the end all of backups, but it is what I use; I just stick it in /etc/cron.daily, and let it run.  It keeps 3 (or however many you configure) weeks of incremental backups with a full backup each week.  It uses gz compression to save space.  it is simple, short and sweet.
+My personal backup choice is a practical application of GNU tar's listed
+incremental backup plan.  It is fairly simple and can be easily configured for
+any number of directories or filesystems.  This is a conglomeration of about
+ten different scripts I found or friends have pointed be to.  This is by no
+means the end all of backups, but it is what I use; I just stick it in
+/etc/cron.daily, and let it run.  It keeps 3 (or however many you configure)
+weeks of incremental backups with a full backup each week.  It uses gz
+compression to save space.  it is simple, short and sweet.
 
 I am always open for comment.  What do you use?  Why is it better (or worse)?
 

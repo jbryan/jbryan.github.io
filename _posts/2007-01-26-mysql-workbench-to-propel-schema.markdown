@@ -12,7 +12,11 @@ categories:
 - Software
 ---
 
-As part of a recent project, I modified the [DBDesigner 2 Propel XSL](http://blog.tooleshed.com/?p=6) to convert MySQL Workbench \*.mwb files to [Propel ](http://propel.phpdb.org) schema.  It has not been thoroughly tested, but this rough draft has been tested against my project using MySQL Workbench 1.1.4alpha on x86_64.  If you have questions, please feel free to ask. 
+As part of a recent project, I modified the DBDesigner 2 Propel XSL to convert
+MySQL Workbench \*.mwb files to Propel schema.  It has not been thoroughly
+tested, but this rough draft has been tested against my project using MySQL
+Workbench 1.1.4alpha on x86_64.  If you have questions, please feel free to
+ask. 
 
 \*UPDATE:
 

@@ -11,8 +11,22 @@ categories:
 - Software
 ---
 
-About four months ago, I was introduced to [Mojavi](http://mojavi.org), an MVC (Model-View-Controller) framework for [PHP](http://php.net).  This, after three years of programming in PHP, has been the cleanest solution I've found to systematic separation of business and display logic.  It allows you to define your web application in terms of discrete modules with actions that can be performed.  Any given action will result and any of a number of views depending on input from and state of the user.
+About four months ago, I was introduced to [Mojavi](http://mojavi.org), an MVC
+(Model-View-Controller) framework for [PHP](http://php.net).  This, after three
+years of programming in PHP, has been the cleanest solution I've found to
+systematic separation of business and display logic.  It allows you to define
+your web application in terms of discrete modules with actions that can be
+performed.  Any given action will result and any of a number of views depending
+on input from and state of the user.
 
-Though, at first, the framework is less than intuitive, it is quite powerful and flexible.  It provides built in support for different databases, templating systems ([Smarty](http://smarty.php.net) and [Smart Templates](http://www.smartparser.com/)), input, post and pre filters, action chains, custom error handling, and path style get variables for [SEO](http://en.wikipedia.org/wiki/Seo).  The biggest drawback I found is that there exist few good "How-To's" about it.  Though the all functions have some basic [PHPDoc](http://phpdoc.org) style comments, the best tutorial I found was posted [here](http://meshier.com/dev/mojavi/tutorial.htm).
+Though, at first, the framework is less than intuitive, it is quite powerful
+and flexible.  It provides built in support for different databases, templating
+systems ([Smarty](http://www.smarty.net) and [Smart
+Templates](http://www.smartparser.com/)), input, post and pre filters, action
+chains, custom error handling, and path style get variables for
+[SEO](http://en.wikipedia.org/wiki/Seo).  The biggest drawback I found is that
+there exist few good "How-To's" about it.  
 
-If you do web development, you should check it out.  I've been using it at work and personally and find it incredibly useful.  If you have questions, feel free to ask.
+If you do web development, you should check it out.  I've been using it at work
+and personally and find it incredibly useful.  If you have questions, feel free
+to ask.
