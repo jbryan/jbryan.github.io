@@ -28,7 +28,7 @@ Despite these drawbacks, this calculation did serve it's purpose fairly well.  A
 
     
     
-{% highlight java %}
+{% codeblock lang:java linenos:true %}
     public class Statistics {
         /**
          ** Number of events that occurred.
@@ -86,7 +86,7 @@ Despite these drawbacks, this calculation did serve it's purpose fairly well.  A
             return lastMovingLoadAvg + (delta * weight);
         }
     }
-{% endhighlight %}
+{% endcodeblock %}
 
 
 Soon, I'll try to post up a small applet that demonstrates this class.  If i get any great suggestions, i'll probably incorporate them as well.
