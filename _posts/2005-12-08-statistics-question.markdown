@@ -28,65 +28,65 @@ Despite these drawbacks, this calculation did serve it's purpose fairly well.  A
 
     
     
-{% codeblock lang:java linenos:true %}
-    public class Statistics {
-        /**
-         ** Number of events that occurred.
-         **/
-        private long events = 0;
-        
-        /**
-         ** The last time a connection was borrowed.
-         **/
-        private long lastEventTime = System.currentTimeMillis();
-        /**
-         ** The last computed moving load average.
-         **/
-        private double lastMovingLoadAvg = 0.0;
-        
-        /**
-         ** Increments the event count and recomputes the movingLoadAverage.
-         **/
-        public synchronized void registerEvent( ) {
-            //increment number borrowed
-            this.events++;
-            
-            //calculate the load average
-            lastMovingLoadAvg = getMovingLoadAverage();
-            
-            //log the last borrow time
-            this.lastEventTime = System.currentTimeMillis();
-        }
-        
-        /**
-         ** Calculates the moving load average as a variation of an
-         ** exponentially smoothed average.
-         ** It approximates the number borrowed in the last 5 minutes using a
-         ** variably weighted
-         ** time since the last event occured to adjust the average.
-         **/
-        public double getMovingLoadAverage() {
-            //current time
-            long now = System.currentTimeMillis();
-            
-            //time since last borrow
-            long timeSinceLast = now - lastEventTime;
-            
-            //weight closely occuring events less than distant ones (closely
-            //occuring events provide more samples, or
-            //are anomolies. We make our window of relevance = 5 mins (300000ms).
-            double weight = timeSinceLast / 300000D;
-            weight = (weight < 1) ? weight : 1;
-            
-            //calculate rate
-            double delta = 0;
-            if (timeSinceLast > 0) //avoid div by 0
-                delta = (60000D / timeSinceLast) - lastMovingLoadAvg; //newrate - last avg rate
-                    
-            return lastMovingLoadAvg + (delta * weight);
-        }
+```java
+public class Statistics {
+    /**
+     ** Number of events that occurred.
+     **/
+    private long events = 0;
+
+    /**
+     ** The last time a connection was borrowed.
+     **/
+    private long lastEventTime = System.currentTimeMillis();
+    /**
+     ** The last computed moving load average.
+     **/
+    private double lastMovingLoadAvg = 0.0;
+
+    /**
+     ** Increments the event count and recomputes the movingLoadAverage.
+     **/
+    public synchronized void registerEvent( ) {
+        //increment number borrowed
+        this.events++;
+
+        //calculate the load average
+        lastMovingLoadAvg = getMovingLoadAverage();
+
+        //log the last borrow time
+        this.lastEventTime = System.currentTimeMillis();
     }
-{% endcodeblock %}
+
+    /**
+     ** Calculates the moving load average as a variation of an
+     ** exponentially smoothed average.
+     ** It approximates the number borrowed in the last 5 minutes using a
+     ** variably weighted
+     ** time since the last event occured to adjust the average.
+     **/
+    public double getMovingLoadAverage() {
+        //current time
+        long now = System.currentTimeMillis();
+
+        //time since last borrow
+        long timeSinceLast = now - lastEventTime;
+
+        //weight closely occuring events less than distant ones (closely
+        //occuring events provide more samples, or
+        //are anomolies. We make our window of relevance = 5 mins (300000ms).
+        double weight = timeSinceLast / 300000D;
+        weight = (weight < 1) ? weight : 1;
+
+        //calculate rate
+        double delta = 0;
+        if (timeSinceLast > 0) //avoid div by 0
+            delta = (60000D / timeSinceLast) - lastMovingLoadAvg; //newrate - last avg rate
+
+        return lastMovingLoadAvg + (delta * weight);
+    }
+}
+```
 
 
 Soon, I'll try to post up a small applet that demonstrates this class.  If i get any great suggestions, i'll probably incorporate them as well.

@@ -8,5 +8,10 @@ linkedin_username:  joshuaabryan
 permalink: /blog/:year/:month/:day/:title/
 paginate: 5
 
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
