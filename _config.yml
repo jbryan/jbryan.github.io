@@ -2,7 +2,6 @@ title: Josh Bryan's Random Thoughts
 description: > # this means to ignore newlines until "baseurl:"
   My random thoughts.
 email: josh.bryan@gmail.com
-twitter_username: jbryanchi
 github_username:  jbryan
 linkedin_username:  joshuaabryan
 permalink: /blog/:year/:month/:day/:title/
