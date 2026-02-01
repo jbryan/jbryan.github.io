@@ -8,7 +8,6 @@ title: Resume
 wordpress_id: 7
 ---
 
-::: resume
 # EDUCATION
 
 Masters of Science, Computer Science Graduated December 2009 \
